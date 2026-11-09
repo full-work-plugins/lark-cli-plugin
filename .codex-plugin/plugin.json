@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lark-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use the local Lark CLI for docs, sheets, Base, messages, and calendars.",
   "author": {
     "name": "PartMe.AI"
@@ -18,5 +18,13 @@
     "base",
     "calendar",
     "messaging"
-  ]
+  ],
+  "interface": {
+    "displayName": "Lark CLI (Office Collaboration)",
+    "shortDescription": "Lark documents, Base, and calendars via local CLI.",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png",
+    "composerIconDark": "./assets/logo.png"
+  }
 }
