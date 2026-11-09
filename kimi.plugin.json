@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lark-cli",
+  "version": "0.1.0",
+  "description": "Lark CLI workflows for docs, sheets, Base, calendar, messaging, and other SaaS resources with guided setup and OAuth login.",
+  "author": {
+    "name": "PartMe.AI"
+  },
+  "homepage": "https://github.com/full-work-plugins/lark-cli-plugin",
+  "repository": "https://github.com/full-work-plugins/lark-cli-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "feishu",
+    "lark",
+    "lark-cli",
+    "docs",
+    "sheets",
+    "base",
+    "calendar",
+    "messaging"
+  ],
+  "displayName": "飞书 CLI",
+  "interface": {
+    "displayName": "飞书 CLI",
+    "shortDescription": "Lark CLI 工作流：覆盖文档、表格、多维表格、日历、消息等 SaaS 资源，并引导应用配置与 OAuth 登录。"
+  }
+}
