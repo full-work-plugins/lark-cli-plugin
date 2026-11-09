@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lark-cli",
   "version": "0.1.0",
-  "description": "Lark CLI workflows for docs, sheets, Base, calendar, messaging, and other SaaS resources with guided setup and OAuth login.",
+  "description": "Use the local Lark CLI for docs, sheets, Base, messages, and calendars.",
   "author": {
     "name": "PartMe.AI"
   },
