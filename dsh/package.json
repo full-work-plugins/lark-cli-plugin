@@ -1,0 +1,38 @@
+{
+  "name": "lark-cli",
+  "version": "0.1.2",
+  "description": "Use the local Lark CLI for docs, sheets, Base, messages, and calendars.",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.png",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*": "./locale/*"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "lib/index.js",
+    "icon.png",
+    "README.md",
+    "locale"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "feishu",
+    "lark",
+    "lark-cli",
+    "docs",
+    "sheets",
+    "base",
+    "calendar",
+    "messaging"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "private": true
+}
